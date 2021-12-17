@@ -1,0 +1,40 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "telefonlogger",
+	"title": "Telefonlogger",
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [
+		"tab"
+	],
+	"type": "iot-systems",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tabReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8081,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Grenni",
+	"authorGithub": "Grenni",
+	"authorEmail": "jburdorf@googlemail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.0.1"
+}
